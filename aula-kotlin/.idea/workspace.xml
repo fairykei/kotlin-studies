@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="838b95b8-2647-4134-8b5b-f1884a4059d4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XJdMEp8HHD8XdYnVru7k0EYISC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Execucao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Execucao" />
+      <module name="aula-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Execucao" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="838b95b8-2647-4134-8b5b-f1884a4059d4" name="Default Changelist" comment="" />
+      <created>1580768081893</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580768081893</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="294" key="FileChooserDialogImpl" timestamp="1585607955021">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1585607955021" />
+    <state width="978" height="169" key="GridCell.Tab.0.bottom" timestamp="1580774602587">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="978" height="169" key="GridCell.Tab.0.bottom/0.0.1024.738/0.0.1024.738@0.0.1024.738" timestamp="1580774602587" />
+    <state width="978" height="169" key="GridCell.Tab.0.center" timestamp="1580774602587">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="978" height="169" key="GridCell.Tab.0.center/0.0.1024.738/0.0.1024.738@0.0.1024.738" timestamp="1580774602587" />
+    <state width="978" height="169" key="GridCell.Tab.0.left" timestamp="1580774602587">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="978" height="169" key="GridCell.Tab.0.left/0.0.1024.738/0.0.1024.738@0.0.1024.738" timestamp="1580774602587" />
+    <state width="978" height="169" key="GridCell.Tab.0.right" timestamp="1580774602587">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="978" height="169" key="GridCell.Tab.0.right/0.0.1024.738/0.0.1024.738@0.0.1024.738" timestamp="1580774602587" />
+    <state x="661" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1585605932338">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="661" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585605932338" />
+    <state x="342" y="160" key="new project wizard" timestamp="1585607982098">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="342" y="160" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1585607982098" />
+    <state x="176" y="162" width="672" height="677" key="run.anything.popup" timestamp="1580775857770">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="176" y="162" width="672" height="677" key="run.anything.popup/0.0.1024.738/0.0.1024.738@0.0.1024.738" timestamp="1580775857770" />
+  </component>
+</project>

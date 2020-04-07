@@ -1,0 +1,2 @@
+rootProject.name='avaliarAluno'
+include ':app'

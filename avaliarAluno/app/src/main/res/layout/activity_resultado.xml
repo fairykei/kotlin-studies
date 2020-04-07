@@ -7,23 +7,27 @@
     tools:context=".Resultado">
 
     <TextView
-        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Resultado:"
         android:textSize="30sp"
-        android:textStyle="bold"
-        android:id="@+id/tvResultado"/>
+        android:textStyle="bold" />
 
     <TextView
-        android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="20sp"
-        android:id="@+id/tv"/>
+        android:id="@+id/tvTexto"
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textSize="20sp"
+    app:layout_constraintTop_toBottomOf="@id/tvResultado" />
 
     <ImageView
-        android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:src="${imagem}"
-        android:id="@+id/ivImagem"/>
-
+        android:id="@+id/ivImagem"
+        android:layout_width="@android:dimen/thumbnail_width"
+        android:layout_height="@android:dimen/thumbnail_height"
+        android:src="@drawable/imagem1"
+        app:layout_constraintTop_toBottomOf="@id/tvTexto" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

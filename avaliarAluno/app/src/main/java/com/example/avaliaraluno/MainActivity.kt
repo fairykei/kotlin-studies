@@ -5,67 +5,55 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_resultado.*
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
         // este código sempre será executado antes da tela abrir
         // no caso, ele vai alterar o que está escrito no componente
         // de id "tvInicio" no XML
-        tvInicio.text = "Passei pela classe! @:"
 
-        val usuario = intent.extras!!.getString("usuario")
-        val idade = intent.extras!!.getInt("idade")
-        val isAdmin = intent.extras?.getBoolean("isAdmin")
+        val nome = etNome.text
+        val nota1 = etNota1.inputType
+        val nota2 = etNota2.inputType
 
-        val mensagem = "O usuario ${usuario} tem ${idade} anos. Administrador? ${isAdmin}"
-        Toast.makeText(this, mensagem,Toast.LENGTH_LONG).show()
-    }
-
-    fun contar(v: View) {
-        contadorTela2++
-        tvTopoTela2.text = "Você já clicou ${contadorTela2} vezes!"
-    }
-
-    // override da fun padrao do botao voltar
-    override fun onBackPressed() {
-        if (contadorTela2 >= 5) {
-            super.onBackPressed() // chama a fun padrao
-        } else {
-            tvTopoTela2.text = "Preciso de 5 toques, pls"
-        }
-    }
-
-    fun sair(v:View) {
-        finish()
+        val mensagem = ""
+        val imagem1 = "@drawable/imagem1"
+        val imagem2 = "@drawable/imagem2"
     }
 
     fun irTela2(v: View) {
         // colocar essa função no onclick do botão no xml de layout
-        val tela2 = Intent(this, Tela2::class.java) // cria um intent mas nao realiza a ação
+        val resultado = Intent(this, Resultado::class.java) // cria um intent mas nao realiza a ação
 
-        tela2.putExtra("usuario", "let")
-        tela2.putExtra("idade", 20)
-        tela2.putExtra("isAdmin", true)
+        val nome = intent.extras!!.getString("nome")
+        val nota1 = intent.extras!!.getFloat("nota1")
+        val nota2 = intent.extras?.getFloat("nota2")
 
-        startActivity(tela2) // realiza a ação desejada
+        if (nota1+nota2?.div(2)!! >= 6) {
+            tvTexto.text = "Parabéns, NOME! Aprovado!"
+            ivImagem.setImageDrawable(`drawable-mdpi`)
+        } else {
+            tvTexto.text = "${nome}, infelizmente, reprovado"
+        }
+
+        startActivity(resultado) // realiza a ação desejada
+        setContentView(R.layout.activity_main)
     }
+
+    //fun cliqueLoko(v: View) {
+    // tvInicio.text = "E num é que clicou? :O"
+    //  tvInvejoso.text = tvInicio.text
+    //}
+
     fun sairApp(v: View) {
         finishAffinity()
     }
 
-    fun cliqueLoko(v: View) {
-        // tvInicio.text = "E num é que clicou? :O"
-        tvInvejoso.text = tvInicio.text
-    }
-
-    fun mensagemAlerta(v:View) {
-        // recuperando o valor digitado numa EditText de id "etFrase"
-        val frase = etFrase.text
-
-        // (aquela mensagem pequena preta na parte de baixo da tela)
-        Toast.makeText(this, frase, Toast.LENGTH_SHORT).show()
+    fun sair(v: View) {
+        finish()
     }
 }

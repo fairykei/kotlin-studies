@@ -6,28 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
+        android:id="@+id/etNome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:hint="Nome"
+        android:inputType="text" />
 
     <EditText
-        android:id="@+id/etFrase"
+        android:id="@+id/etNota1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Digite algo"
-        android:inputType="number"
-        app:layout_constraintTop_toBottomOf="@id/tvInvejoso" />
+        android:hint="Nota 1"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@id/etNome" />
+
+    <EditText
+        android:id="@+id/etNota2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nota 2"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@id/etNota1" />
 
     <Button
+        android:id="@+id/btAvaliar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="mensagemAlerta"
-        android:text="Seja discreto!"
-        app:layout_constraintTop_toBottomOf="@id/etFrase" />
+        android:text="Avaliar Aluno"
+        app:layout_constraintTop_toBottomOf="@id/etNota2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

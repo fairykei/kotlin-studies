@@ -8,16 +8,13 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    // prof, meu v:View por algum motivo nao ta sendo usado, comparei codigo com meus amigos e rodei o deles aqui, com o mesmo código não funciona, não sei se é alguma configuração ou o que.. mas a logica creio que ta certa
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         // este código sempre será executado antes da tela abrir
     }
 
-    fun avaliarAluno(v:View) {
+    fun avaliarAluno (v:View) {
         // colocar essa função no onclick do botão no xml de layout
         val resultado = Intent(this, Resultado::class.java) // cria um intent mas nao realiza a ação
 

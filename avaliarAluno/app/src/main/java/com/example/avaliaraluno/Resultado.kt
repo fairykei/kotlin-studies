@@ -2,7 +2,6 @@ package com.example.avaliaraluno
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_resultado.*
 
@@ -16,7 +15,6 @@ class Resultado : AppCompatActivity() {
         val nota01 = intent.extras?.getFloat("nota1")
         val nota02 = intent.extras?.getFloat("nota2")
 
-
         val media = (nota01!! + nota02!!)?.div(2)
 
         if (media!! >= 6) {
@@ -26,6 +24,7 @@ class Resultado : AppCompatActivity() {
             tvTexto.text = "${nome}, infelizmente, reprovado"
             ivImagem.setImageResource(R.drawable.imagem2)
         }
+
     }
 
 }

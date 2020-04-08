@@ -33,7 +33,7 @@
         android:id="@+id/btAvaliar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="mensagemAlerta"
+        android:onClick="avaliarAluno"
         android:text="Avaliar Aluno"
         app:layout_constraintTop_toBottomOf="@id/etNota2" />
 

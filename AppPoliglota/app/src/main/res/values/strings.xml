@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App Poliglota do Yoshi</string>
+    <string name="txt_boas_vindas">Sejam bem vindos!</string>
+    <string name="txt_boa_noite">Boa noite!!!</string>
+
+    <color name="cor_texto">#00FF00</color>
+
+</resources>

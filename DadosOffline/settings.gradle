@@ -1,0 +1,2 @@
+rootProject.name='Dados Offline'
+include ':app'

@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">Poliglota II</string>
-    <string name="boanoite">Boa noite!</string>
+    <string name="boa_noite">Boa noite, galera!</string>
+    <string name="carregou">O App está pronto!</string>
+
+    <!-- String parametrizada. Ou seja, com partes dinâmicas -->
+    <!-- %ORDEM$TIPO (ordem começa do 1 e não do 0) -->
+    <!-- ex: %1$s -> 1º parâmetro e é do tipo String -->
+    <!-- ex: %2$d -> 2º parâmetro e é do tipo Integer -->
+    <!-- ex: %3$.2f -> 3º parâmetro e é do tipo Real com 2 casas decimais (.2f) -->
+    <string name="descricao">Seu nome é %1$s. Sua idade: %2$d. Sua altura: %3$.2f</string>
+
+    <color name="cor_texto">#00FF00</color>
+
+    <drawable name="imagem_padrao">@drawable/wolverine</drawable>
 </resources>

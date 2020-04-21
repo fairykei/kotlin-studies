@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Poliglota II</string>
+    <string name="boa_noite">Good evening, guys</string>
+    <string name="carregou">The App is ready!</string>
+
+    <!-- String parametrizada. Ou seja, com partes dinâmicas -->
+    <!-- %ORDEM$TIPO (ordem começa do 1 e não do 0) -->
+    <!-- ex: %1$s -> 1º parâmetro e é do tipo String -->
+    <!-- ex: %2$d -> 2º parâmetro e é do tipo Integer -->
+    <!-- ex: %3$.2f -> 3º parâmetro e é do tipo Real com 2 casas decimais (.2f) -->
+    <string name="descricao">Your name is %1$s. Your height: %3$.2f. You are %2$d.</string>
+
+    <color name="cor_texto">#224cb6</color>
+
+    <drawable name="imagem_padrao">@drawable/flash</drawable>
+</resources>

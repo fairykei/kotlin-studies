@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Poliglota do Yoshi</string>
+    <string name="txt_boas_vindas">Villkomen</string>
+    <string name="txt_boa_noite">Guten tag</string>
+
+    <color name="cor_texto">#FF0000</color>
+</resources>

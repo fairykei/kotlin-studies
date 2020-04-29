@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btSair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sair do app"
+        app:layout_constraintLeft_toRightOf="@id/btEntrar"
+        android:onClick="sairApp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Digite algo"
+        app:layout_constraintTop_toBottomOf="@id/tvInvejoso"
+        android:id="@+id/etFrase"
+        android:inputType="number"
+        />
+
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/image" android:id="@+id/ivTopo" android:onClick="trocarImagem"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="COVID19" android:textSize="30sp" android:textStyle="bold" android:id="@+id/tvContador"/>
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/tvContador" app:layout_constraintLeft_toRightOf="@id/tvContador" android:text="do the click" android:onClick="clickLouco" android:layout_margin="50dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

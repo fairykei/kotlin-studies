@@ -1,8 +1,15 @@
 <resources>
-    <string name="app_name">App Poliglota do Yoshi</string>
-    <string name="txt_boas_vindas">Sejam bem vindos!</string>
-    <string name="txt_boa_noite">Boa noite!!!</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_senha">Senha</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="app_name">avaliacao01182028</string>
 
-    <color name="cor_texto">#00FF00</color>
 
+    <string name="txt_candidato">1o Candidato</string>
+    <string name="txt_candidato2">2o Candidato</string>
+    <string name="txt_empate1">Empate</string>
+    <string name="txt_simular">Simular Votação</string>
+
+    <string name="txt_votos">Vencedor(a) da eleição com ${qtd} votos </string>
+    <string name="txt_empate">Ambos tiveram ${aleatorio} votos</string>
 </resources>
